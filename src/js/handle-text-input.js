@@ -18,4 +18,4 @@ function hendleTextInput(event) {
 
     fetchCountries(countryName).then(updateMarkup);
 }
-refs.input.addEventListener('input', debounce(hendleTextInput, 500));
+refs.input.addEventListener('input', debounce(hendleTextInputy, 500));
