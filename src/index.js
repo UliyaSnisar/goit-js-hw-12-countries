@@ -23,6 +23,7 @@ const getQuery = function (e) {
           title: 'Error',
           text: 'Please, specify your request!',
         });
+        refs.list.innerHTML = '';
       }
       if (data.length > 1 && data.length < 10) {
         refs.list.innerHTML = '';
